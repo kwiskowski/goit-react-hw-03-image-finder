@@ -22,7 +22,14 @@ export class App extends Component {
           color: '#010101',
         }}
       >
-        <SearchBar></SearchBar>
+        <SearchBar>
+          <Loader></Loader>
+        </SearchBar>
+        <ImageGallery>
+          <ImageGalleryItem>
+            <Modal></Modal>
+          </ImageGalleryItem>
+        </ImageGallery>
         <Button></Button>
       </div>
     );

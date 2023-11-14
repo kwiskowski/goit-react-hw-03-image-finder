@@ -1,10 +1,9 @@
-import { Component } from 'react';
-
+import css from './Loader.module.css';
 import { Hourglass } from 'react-loader-spinner';
 
-export class Loader extends Component {
-  render() {
-    return (
+export const Loader = () => {
+  return (
+    <div className={css.loader}>
       <Hourglass
         visible={true}
         height="80"
@@ -14,6 +13,6 @@ export class Loader extends Component {
         wrapperClass=""
         colors={['#306cce', '#72a1ed']}
       />
-    );
-  }
-}
+    </div>
+  );
+};

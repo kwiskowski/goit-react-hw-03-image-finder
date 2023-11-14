@@ -2,7 +2,6 @@ import { Component } from 'react';
 import axios from 'axios';
 import { Button } from './Button/Button';
 import { ImageGallery } from './ImageGallery/ImageGallery';
-import { ImageGalleryItem } from './ImageGalleryItem/ImageGalleryItem';
 import { Loader } from './Loader/Loader';
 import { Modal } from './Modal/Modal';
 import { SearchBar } from './SearchBar/SearchBar';
